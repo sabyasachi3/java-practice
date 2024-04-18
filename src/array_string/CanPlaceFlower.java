@@ -42,7 +42,7 @@ public class CanPlaceFlower {
 				next = flowerbed[i + 1];
 			}
 			if (prev == 0 && current == 0 && next == 0) {
-				System.out.println("Flower planted at index " + i);
+				//System.out.println("Flower planted at index " + i);
 				count--;
 				prev = 1;
 			} else {
